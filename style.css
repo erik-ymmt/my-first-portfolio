@@ -1,0 +1,63 @@
+/* * {
+    border-style: dashed;
+    border-color: rgba(255, 0, 0, 0.5);
+} */
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #274156;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#foto {
+    border-radius: 15%;
+    height: 200px;
+    float: left;
+    margin-left: 15%;
+    padding: 0 10px 10px 0;
+    background-color: rgba(50, 50, 50, 0.50);
+}
+
+#description {
+    height: 200px;
+}
+
+#description p {
+    text-align: center;
+}
+
+h1 {
+    color: #A5C4D4;
+}
+
+.list1 {
+    font-size: 2em;
+}
+
+.list2 {
+    font-size: 1.75em;
+}
+
+.list3 {
+    font-size: 1.25em;
+}
+
+li {
+    font-style: italic;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color:grey;
+}
+
+#skills li:nth-of-type(odd) {
+    color:#A5C4D4;
+}

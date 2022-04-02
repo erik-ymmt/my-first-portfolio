@@ -5,41 +5,22 @@
         <title>
             Erik|Portfolio
         </title>
-        <style>
-
-            body {
-                background-color: #274156;
-                color: white;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            h1 {
-                color: #A5C4D4;
-            }
-            .list1 {
-                font-size: 2em;
-            }
-            .list2 {
-                font-size: 1.75em;
-            }
-            .list3 {
-                font-size: 1.25em;
-            }
-            li {
-                font-style: italic;
-            }
-            a:link {
-                color:white;
-            }
-            a:visited {
-                color:grey;
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
         <p>Bem-vindos e bem-vindas a minha página! Essa é uma página teste, parte do exercício das aulas de HTML da <strong>Trybe</strong></p>
-        <h1>Erik Assis Rocha Yamamoto</h1>
+        
+        <div>
+            <h1>Erik Assis Rocha Yamamoto</h1>
+        </div>
+        <div>
+            <img id="foto" src="/Erik_002-compressed.jpg" alt="Foto do Erik">
+        </div>
+        <div id="description">
+            <p>Oi! Esse sou eu!</p>
+        </div>
+
         <h2>Sumário:</h2>
         <ul>
         <li><a href="#infos">Informações Minhas</a></li>
@@ -62,8 +43,8 @@
             <li class="list3">Artes</li>
             <li><em>bird watching</em></li>
         </ul>
-        <h2 id="skills">Algumas habilidade que tenho:</h2>
-        <ul>
+        <h2>Algumas habilidade que tenho:</h2>
+        <ul id="skills">
             <li><strong>Desenhos técnicos arquitetônicos</strong></li>
             <li>Foco</li>
             <li>Aprendizado rápido</li>
@@ -71,7 +52,5 @@
         <h2 id="blog">Recomendação de blog:</h2>
         <a href="https://blog.betrybe.com/" target="blank">Blog Interessante</a>
         <br>
-        <p>Oi! Esse sou eu!</p>
-        <img id="foto" src="/Erik_002-compressed.jpg" alt="Foto do Erik" width="100px">
     </body>
 </html>
