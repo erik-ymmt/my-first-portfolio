@@ -3,61 +3,96 @@
     border-color: rgba(255, 0, 0, 0.5);
 } */
 
-h1 {
-    text-align: center;
+html {
+    background-image: url("https://wallpaperaccess.com/full/2215992.jpg");
+    background-color: #A5C4D4;
+    background-size: cover;
 }
 
 body {
-    background-color: #274156;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 20% 15px 20%;
+    background-color: #364048;
+    color: #e3eef3;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 10px 10px 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #foto {
     border-radius: 15%;
     height: 200px;
-    float: left;
-    margin-left: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
     padding: 0 10px 10px 0;
     background-color: rgba(50, 50, 50, 0.50);
 }
 
-#description {
-    height: 200px;
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
 }
 
-#description p {
+#description {
+    margin: 0px;
+    padding: 0px;
+}
+
+#icons {
     text-align: center;
 }
 
-h1 {
-    color: #A5C4D4;
+.icon {
+    height: 40px;
+    border-radius: 100%;
+    padding: 5px;
+    display: inline-block;
 }
 
-.list1 {
-    font-size: 2em;
+.row {
+  display: flex;
 }
 
-.list2 {
-    font-size: 1.75em;
+p {
+    text-align: center;
 }
 
-.list3 {
-    font-size: 1.25em;
+ul {
+    list-style: none;
 }
 
-li {
-    font-style: italic;
+.lists {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.list-info {
+    margin-left: 7%;
+    color: #e3eef378
+}
+
+a {
+    text-decoration: none;
 }
 
 a:link {
-    color:white;
+    color: #e3eef3;
 }
 
 a:visited {
-    color:grey;
+    color: #e3eef3;
 }
 
-#skills li:nth-of-type(odd) {
-    color:#A5C4D4;
+#button {
+    background-color: #A5C4D4;
+    color: #364048;
+    padding: 0 5px 0 5px;
+    border-radius: 5%;
+}
+
+#button-div {
+    text-align: center;
 }
