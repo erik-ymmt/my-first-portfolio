@@ -18,12 +18,14 @@ body {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+
 #foto {
     border-radius: 15%;
     height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 0px;
     padding: 0 10px 10px 0;
     background-color: rgba(50, 50, 50, 0.50);
@@ -50,10 +52,6 @@ h1 {
     border-radius: 100%;
     padding: 5px;
     display: inline-block;
-}
-
-.row {
-  display: flex;
 }
 
 p {
@@ -91,8 +89,14 @@ a:visited {
     color: #364048;
     padding: 0 5px 0 5px;
     border-radius: 5%;
+    opacity: .8;
+}
+
+#button:hover {
+    opacity: 1;
 }
 
 #button-div {
     text-align: center;
+    margin-bottom: 25px;
 }
