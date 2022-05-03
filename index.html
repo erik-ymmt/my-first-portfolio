@@ -1,56 +1,73 @@
 <!DOCTYPE html> 
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Erik|Portfolio
-        </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-        <p>Bem-vindos e bem-vindas a minha página! Essa é uma página teste, parte do exercício das aulas de HTML da <strong>Trybe</strong></p>
-        
-        <div>
-            <h1>Erik Assis Rocha Yamamoto</h1>
-        </div>
-        <div>
-            <img id="foto" src="/Erik_002-compressed.jpg" alt="Foto do Erik">
-        </div>
-        <div id="description">
-            <p>Oi! Esse sou eu!</p>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Erik|Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id="top">Bem-vindos e bem-vindas a minha página! <br><em>Essa é uma página teste, parte do exercício das aulas de HTML e CSS da <a href="https://www.linkedin.com/company/14814665/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BBDQDNb2zQsyZQemrSxg2og%3D%3D" target="_blanck"><strong>Trybe</strong></em></a>
+    </p>
+    <div class="container-img">
+        <img id="foto" src="/Erik_002-compressed.jpg" alt="Foto do Erik">
+    </div>
+    <h1>Erik Yamamoto</h1>
+    <p id="description">Arquiteto e Urbanista | Estudante de Desenvolvimento Web</p>
+    <p id="description">Florianópolis, SC | Idade: 27</p>
 
-        <h2>Sumário:</h2>
+    <div id="icons">
+        <a href="https://www.linkedin.com/in/erikyamamoto/" target="_blank"><img class="icon" src="https://i.pinimg.com/originals/1f/db/d8/1fdbd88fec469fc342cdff7ea25b8bd8.jpg" alt="Linkedin logo"></a>
+
+        <a href="https://www.instagram.com/erik.yamamoto" target="_blank"><img class="icon" src="https://png.pngitem.com/pimgs/s/554-5543757_ig-icon-01-circle-hd-png-download.png" alt="Instagram logo"></a>
+    </div>
+    <div class="lists">
+        <h2>Formação Acadêmica</h2>
         <ul>
-        <li><a href="#infos">Informações Minhas</a></li>
-        <li><a href="#gosto">O que eu gosto:</a></li>
-        <li><a href="#skills">Algumas habilidades que tenho:</a></li>
-        <li><a href="#blog">Recomendação de blog</a></li>
-        <li><a href="#foto">Clica aqui se quiser ver minha foto</a></li>
+            <li><a href="https://www.linkedin.com/company/14814665/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BBDQDNb2zQsyZQemrSxg2og%3D%3D" target="_blank"><strong>Trybe</strong></a>
+            <li class="list-info">Brasil</li>
+            <li class="list-info">2022-atual</li>
+
+            <li><a href="https://www.linkedin.com/company/17959/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BBDQDNb2zQsyZQemrSxg2og%3D%3D" target="_blank"><strong>UFSC</strong> - Universidade Federal de Santa Catarina </a></li>
+            <li class="list-info">Florianópolis, SC - Brasil</li>
+            <li class="list-info">2012-2018</li>
+
+            <li><a href="https://www.linkedin.com/company/301086/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BBDQDNb2zQsyZQemrSxg2og%3D%3D" target="_blank"><strong>Parsons School of Design</strong> - The New School </a></li>
+            <li class="list-info">New York, NY - USA</li>
+            <li class="list-info">2014-2015 (Graduação Sanduíche)</li>
         </ul>
-        
-        <p id="infos"> Olá! Sou Erik e aqui estão algumas informações minhas:</p>
+    </div>
+
+    <div class="lists">
+        <h2>Experiência</h2>
         <ul>
-            <li>Nacionalidade: Brasileiro</li>
-            <li>Localização: Florianópolis, SC</li>
-            <li>Idade: 27 anos</li>
+            <li><strong>Espaço do Traço</strong> Arquitetura
+            <li class="list-info">Florianópolis, SC - Brasil</li>
+            <li class="list-info">2018-atual</li>
+
+            <li>Hospital <strong>Baía Sul</strong></li>
+            <li class="list-info">Florianópolis, SC - Brasil</li>
+            <li class="list-info">2018-2019</li>
+
+            <li><strong>TNP</strong> Trumbull Neighborhood Partnership </li>
+            <li class="list-info">Warren, OH - USA</li>
+            <li class="list-info">2015</li>
         </ul>
-        <h2 id="gosto">O que eu gosto:</h2>
+
+        <h2>Idiomas</h2>
         <ul>
-            <li class="list1">Esportes</li>
-            <li class="list2">Natureza</li>
-            <li class="list3">Artes</li>
-            <li><em>bird watching</em></li>
-        </ul>
-        <h2>Algumas habilidade que tenho:</h2>
-        <ul id="skills">
-            <li><strong>Desenhos técnicos arquitetônicos</strong></li>
-            <li>Foco</li>
-            <li>Aprendizado rápido</li>
-        </ul>
-        <h2 id="blog">Recomendação de blog:</h2>
-        <a href="https://blog.betrybe.com/" target="blank">Blog Interessante</a>
-        <br>
-    </body>
+            <li>Português</li>
+            <li class="list-info">Nativo</li>
+
+            <li>Inglês</li>
+            <li class="list-info">Avançado</li>
+    </div>
+    <div id="button-div">
+        <a href="#top" id="button">Voltar ao topo</a>
+    </div>
+</body>
 </html>
